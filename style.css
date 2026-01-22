@@ -1,0 +1,27 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f9fbff;
+}
+
+.hero {
+  padding: 120px 20px;
+  background: linear-gradient(to right, #eaf1ff, #ffffff);
+}
+
+.feature-card, .feature-box, .pricing .card {
+  background: #fff;
+  padding: 30px;
+  margin: 15px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  transition: transform .3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.dark {
+  background: #121212;
+  color: #fff;
+}
